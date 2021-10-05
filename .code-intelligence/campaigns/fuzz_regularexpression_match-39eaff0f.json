@@ -1,0 +1,15 @@
+{
+  "name": "fuzz_regularexpression_match-39eaff0f",
+  "displayName": "fuzz_regularexpression_match",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "LmNvZGUtaW50ZWxsaWdlbmNlL2Z1enpfdGFyZ2V0cy9mdXp6X3JlZ3VsYXJleHByZXNzaW9uX21hdGNoLmNwcA=="
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1
+    }
+  ]
+}

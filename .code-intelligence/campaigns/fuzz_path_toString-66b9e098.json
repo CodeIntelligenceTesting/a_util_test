@@ -1,0 +1,15 @@
+{
+  "name": "fuzz_path_toString-66b9e098",
+  "displayName": "fuzz_path_toString",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "LmNvZGUtaW50ZWxsaWdlbmNlL2Z1enpfdGFyZ2V0cy9mdXp6X3BhdGhfdG9TdHJpbmcuY3Bw"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1
+    }
+  ]
+}
