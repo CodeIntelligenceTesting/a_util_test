@@ -27,7 +27,7 @@
 
 #if (defined(WIN32) && (_MSC_VER >= 1800)) ||                                                      \
     (defined(__GNUC__) && (__cplusplus >= 201103L) && (__GNUC__ > 5)) ||                           \
-    (defined(__GNUC__) && (__GNUC__ == 4) && (__GNUC_MINOR__ > 7) &&                               \
+    (defined(__GNUC__) && (__GNUC__ == 4) && (__GNUC_MINOR__ > 1) &&                               \
      (defined(__GXX_EXPERIMENTAL_CXX0X__)))
 
 inline std::int64_t a_util_strtoll(const char* str, char** str_end, int base)
